@@ -45,8 +45,3 @@ das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 
 ## Verwendete PowerShell-Befehle
 
-```powershell
-Get-ADUser -Filter *
-Get-ADGroup -Filter *
-Get-ADOrganizationalUnit -Filter *
-```
