@@ -1,4 +1,4 @@
-\# Windows Server 2025 Homelab
+# Windows Server 2025 Homelab
 
 
 
@@ -10,7 +10,7 @@ Systemadministration und IT-Infrastruktur.
 
 
 
-\## Ziel des Projekts
+### Ziel des Projekts
 
 
 
@@ -24,7 +24,7 @@ Fachinformatik.
 
 
 
-\## Verwendete Technologien
+### Verwendete Technologien
 
 
 
@@ -44,7 +44,7 @@ Fachinformatik.
 
 
 
-\## Struktur
+### Struktur
 
 
 
@@ -60,7 +60,7 @@ Fachinformatik.
 
 
 
-\## Status
+### Status
 
 
 
