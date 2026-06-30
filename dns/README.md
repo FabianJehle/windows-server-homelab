@@ -1,8 +1,8 @@
-\# DNS-Konfiguration
+# DNS-Konfiguration
 
 
 
-\## Übersicht
+## Übersicht
 
 
 
@@ -14,11 +14,11 @@ Forward Lookup Zone als auch eine Reverse Lookup Zone wurden konfiguriert.
 
 
 
-!\[DNS Übersicht](./dns-general.png)
+![DNS Übersicht](./dns-general.png)
 
 
 
-\## Forward Lookup Zone (contoso.local)
+## Forward Lookup Zone (contoso.local)
 
 
 
@@ -26,25 +26,25 @@ Enthält folgende Einträge:
 
 
 
-\- \*\*SOA \& NS Records\*\* – automatisch generiert für die Domäne
+\- **SOA \& NS Records** – automatisch generiert für die Domäne
 
-\- \*\*Host (A) Records:\*\*
+\- **Host (A) Records:**
 
 &#x20; - `server01` → 192.168.160.222
 
 &#x20; - `router` → 192.168.160.2
 
-\- \*\*Alias (CNAME):\*\*
+\- **Alias (CNAME):**
 
 &#x20; - `gateway` → router.contoso.local
 
 
 
-!\[DNS Forward Lookup Zone](./forward-zones.png)
+![DNS Forward Lookup Zone](./forward-zones.png)
 
 
 
-\## Reverse Lookup Zone (160.168.192.in-addr.arpa)
+## Reverse Lookup Zone (160.168.192.in-addr.arpa)
 
 
 
@@ -56,25 +56,8 @@ Troubleshooting).
 
 
 
-\- \*\*PTR Records\*\* für server01 und router, passend zu den Forward-Einträgen
+\- **PTR Records** für server01 und router, passend zu den Forward-Einträgen
 
 
 
-!\[DNS Reverse Lookup Zone](./reverse-lookup-zones.png)
-
-
-
-\## Verwendete PowerShell-Befehle
-
-
-
-```powershell
-
-Get-NetIPConfiguration
-
-Resolve-DnsName server01.contoso.local
-
-Resolve-DnsName 192.168.160.222
-
-```
-
+![DNS Reverse Lookup Zone](./reverse-lookup-zones.png)
