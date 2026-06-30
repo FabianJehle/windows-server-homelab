@@ -16,7 +16,7 @@ Benutzer im Standard-Users-Container zu belassen.
 Diese Trennung ermöglicht eine gezielte Anwendung von Gruppenrichtlinien 
 (GPOs) auf OU-Ebene sowie eine saubere Delegation von Berechtigungen.
 
-![OU-Struktur und Testbenutzer](./ou-structure.png)
+![OU-Struktur](./AD-Overview.png)
 
 ## Testbenutzer
 
@@ -28,3 +28,25 @@ Rollen angelegt:
 | Emma Johnson | User | – |
 | James Smith | User | IT-Admin |
 | Sarah White | User | HR-Staff |
+
+![End Users](./End-Users.png)
+
+## Security Groups
+
+Statt Berechtigungen direkt auf einzelne User zu vergeben, wurden 
+rollenbasierte Security Groups angelegt. Berechtigungen und GPOs werden 
+künftig über diese Gruppen gesteuert, nicht direkt am Benutzerkonto – 
+das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
+
+- **IT-Admins**
+- **HR-Staff**
+
+![Security Groups](./Security-Groups.png)
+
+## Verwendete PowerShell-Befehle
+
+```powershell
+Get-ADUser -Filter *
+Get-ADGroup -Filter *
+Get-ADOrganizationalUnit -Filter *
+```
