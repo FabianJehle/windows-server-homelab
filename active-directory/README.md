@@ -42,6 +42,3 @@ das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 - **HR-Staff**
 
 ![Security Groups](./Security-Groups.png)
-
-## Verwendete PowerShell-Befehle
-
