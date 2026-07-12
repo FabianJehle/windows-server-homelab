@@ -9,14 +9,14 @@ Benutzer im Standard-Users-Container zu belassen.
 
 ## OU-Struktur
 
-- **Contenso**
-  - **End Users** – enthält alle Benutzerkonten
+- **Contoso**
+  - **User** – enthält alle Benutzerkonten
   - **Security Groups** – für gruppenbasierte Berechtigungsvergabe
 
 Diese Trennung ermöglicht eine gezielte Anwendung von Gruppenrichtlinien 
 (GPOs) auf OU-Ebene sowie eine saubere Delegation von Berechtigungen.
 
-![OU-Struktur](./AD-Overview.png)
+![OU-Struktur](./ADOverview.png)
 
 ## Testbenutzer
 
@@ -29,8 +29,6 @@ Rollen angelegt:
 | James Smith | User | IT-Admin |
 | Sarah White | User | HR-Staff |
 
-![End Users](./End-Users.png)
-
 ## Security Groups
 
 Statt Berechtigungen direkt auf einzelne User zu vergeben, wurden 
@@ -39,6 +37,7 @@ künftig über diese Gruppen gesteuert, nicht direkt am Benutzerkonto –
 das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 
 - **IT-Admins**
-- **HR-Staff**
+- **HR**
+- **Accounting**
 
-![Security Groups](./Security-Groups.png)
+![Security Groups](./SecurityGroups.png)
