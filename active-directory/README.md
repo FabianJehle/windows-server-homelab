@@ -16,7 +16,7 @@ Benutzer im Standard-Users-Container zu belassen.
 Diese Trennung ermöglicht eine gezielte Anwendung von Gruppenrichtlinien 
 (GPOs) auf OU-Ebene sowie eine saubere Delegation von Berechtigungen.
 
-![OU-Struktur](./AD-Overview.png)
+![OU-Struktur](./ADOverview.png)
 
 ## Testbenutzer
 
@@ -29,8 +29,6 @@ Rollen angelegt:
 | James Smith | User | IT-Admin |
 | Sarah White | User | HR-Staff |
 
-![End Users](./End-Users.png)
-
 ## Security Groups
 
 Statt Berechtigungen direkt auf einzelne User zu vergeben, wurden 
@@ -41,4 +39,4 @@ das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 - **IT-Admins**
 - **HR-Staff**
 
-![Security Groups](./Security-Groups.png)
+![Security Groups](./SecurityGroups.png)
