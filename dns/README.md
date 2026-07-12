@@ -14,7 +14,7 @@ Forward Lookup Zone als auch eine Reverse Lookup Zone wurden konfiguriert.
 
 
 
-![DNS Übersicht](./dns-general.png)
+![DNS Übersicht](Screenshots/dns-general.png)
 
 
 
@@ -40,7 +40,7 @@ Enthält folgende Einträge:
 
 
 
-![DNS Forward Lookup Zone](./forward-zones.png)
+![DNS Forward Lookup Zone](Screenshots/forward-zones.png)
 
 
 
@@ -60,4 +60,4 @@ Troubleshooting).
 
 
 
-![DNS Reverse Lookup Zone](./reverse-lookup-zones.png)
+![DNS Reverse Lookup Zone](Screenshots/reverse-lookup-zones.png)
