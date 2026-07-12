@@ -16,7 +16,7 @@ Benutzer im Standard-Users-Container zu belassen.
 Diese Trennung ermöglicht eine gezielte Anwendung von Gruppenrichtlinien 
 (GPOs) auf OU-Ebene sowie eine saubere Delegation von Berechtigungen.
 
-![OU-Struktur](./ADOverview.png)
+![OU-Struktur](Screenshots/ADOverview.png)
 
 ## Testbenutzer
 
@@ -40,4 +40,4 @@ das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 - **HR**
 - **Accounting**
 
-![Security Groups](./SecurityGroups.png)
+![Security Groups](Screenshots/SecurityGroups.png)
