@@ -21,4 +21,4 @@ Beim ersten Test bekam der Client eine IP von **192.168.160.130** mit DHCP-Serve
 Im VMware Virtual Network Editor (Edit -> Virtual Network Editor) die Option "Use local DHCP service to distribute IP address to VMs". Nach erneutem `ipconfig /release` / `renew` kam die IP korrekt aus dem eigenen Scope(192.168.160.50), inklusive korrektem DNS-Suffix contoso.local.
 
 ## Screenshots
-![DHCP Lease Test](./screenshots/dhcp-lease-test.png)
+![DHCP Lease Test](Screenshots/dhcp-lease-test.png)
