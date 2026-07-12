@@ -9,8 +9,8 @@ Benutzer im Standard-Users-Container zu belassen.
 
 ## OU-Struktur
 
-- **Contenso**
-  - **End Users** – enthält alle Benutzerkonten
+- **Contoso**
+  - **User** – enthält alle Benutzerkonten
   - **Security Groups** – für gruppenbasierte Berechtigungsvergabe
 
 Diese Trennung ermöglicht eine gezielte Anwendung von Gruppenrichtlinien 
@@ -37,6 +37,7 @@ künftig über diese Gruppen gesteuert, nicht direkt am Benutzerkonto –
 das vereinfacht die Verwaltung erheblich, sobald mehr User dazukommen.
 
 - **IT-Admins**
-- **HR-Staff**
+- **HR**
+- **Accounting**
 
 ![Security Groups](./SecurityGroups.png)
