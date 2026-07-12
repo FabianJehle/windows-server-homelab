@@ -36,11 +36,7 @@ Fachinformatik.
 
 \- DNS (Forward \& Reverse Lookup Zones)
 
-\- DHCP
-
 \- PowerShell
-
-\- Group Policy Management
 
 
 
@@ -51,12 +47,6 @@ Fachinformatik.
 \- \[`active-directory/`](./active-directory) – Domänenstruktur, OUs, Benutzer- und Gruppenverwaltung
 
 \- \[`dns/`](./dns) – DNS-Zonenkonfiguration
-
-\- \[`dhcp/`](./dhcp) – DHCP-Scope-Konfiguration
-
-\- \[`gpo/`](./gpo) – Group Policy Objects
-
-\- \[`powershell-scripts/`](./powershell-scripts) – Verwendete PowerShell-Befehle und Skripte
 
 
 
