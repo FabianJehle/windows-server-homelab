@@ -13,7 +13,7 @@ zu simulieren.
 - **Gesamtkapazität:** 47.4 GB
 - **Freier Speicher:** 42.2 GB
 
-![Screenshots/Storage-Spaces.png]
+![Storage Spaces Übersicht](Screenshots/Storage-Spaces.png)
 
 ### Virtual Disk
 - **Name:** LabVirtualDisk
