@@ -27,7 +27,7 @@ Einstiegsposition im First Level Support.
 - [`active-directory/`](./active-directory) – Domänenstruktur, OUs, Benutzer- und Gruppenverwaltung
 - [`dns/`](./dns) – DNS-Zonenkonfiguration
 - [`dhcp/`](./dhcp) – DHCP-Server-Setup und IP-Verwaltung
-
+- [`storage-spaces/`](./storage-spaces) – Storage Pool
 ## Learnings
 
 Jedes Teilprojekt enthält einen eigenen Abschnitt zu aufgetretenen 
