@@ -20,6 +20,8 @@ Einstiegsposition im First Level Support.
 - Active Directory Domain Services (AD DS)
 - DNS (Forward & Reverse Lookup Zones)
 - DHCP
+- GPO
+- File Server Role
 - PowerShell
 
 ## Struktur
@@ -28,6 +30,7 @@ Einstiegsposition im First Level Support.
 - [`dns/`](./dns) – DNS-Zonenkonfiguration
 - [`dhcp/`](./dhcp) – DHCP-Server-Setup und IP-Verwaltung
 - [`storage-spaces/`](./storage-spaces) – Storage Pool
+- [`file-server-role/`](./file-server-role) – File Server Role
 ## Learnings
 
 Jedes Teilprojekt enthält einen eigenen Abschnitt zu aufgetretenen 
